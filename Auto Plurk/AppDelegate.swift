@@ -8,13 +8,26 @@
 
 import UIKit
 import CoreData
+import OAuthSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    // 應用程式被呼叫時啟用
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        // Override point for customization after application launch.
+        if (url.host == "oauth-callback") {
+            if (url.path.hasPrefix("/plurk")){
+                NSLog("Run [application], url=\(url.absoluteString)")
+                OAuthSwift.handle(url: url)
+            }
+        }
+        return true
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true

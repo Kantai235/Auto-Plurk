@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70BA3AD1E55A3070029F796 /* LikeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70BA3AC1E55A3070029F796 /* LikeTableViewCell.swift */; };
+		A726A6741E5AC66900C7ECA8 /* ActionSheetPicker_3_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A726A6731E5AC66900C7ECA8 /* ActionSheetPicker_3_0.framework */; };
+		A75224F01E5A9602001470CF /* TabMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75224EF1E5A9602001470CF /* TabMessageViewController.swift */; };
+		A75C2D581E541428002E58E3 /* PopupDialog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75C2D571E541428002E58E3 /* PopupDialog.framework */; };
+		A75C2D5A1E5431E0002E58E3 /* TabOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75C2D591E5431E0002E58E3 /* TabOtherViewController.swift */; };
+		A75C2D5C1E543C46002E58E3 /* SlipTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75C2D5B1E543C46002E58E3 /* SlipTabBarControllerViewController.swift */; };
+		A775CD991E54A854003A5193 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A775CD981E54A854003A5193 /* SwiftyJSON.framework */; };
 		A77C22581E4CBE8800BECF00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77C22571E4CBE8800BECF00 /* AppDelegate.swift */; };
-		A77C225A1E4CBE8800BECF00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77C22591E4CBE8800BECF00 /* ViewController.swift */; };
 		A77C225D1E4CBE8800BECF00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77C225B1E4CBE8800BECF00 /* Main.storyboard */; };
 		A77C22601E4CBE8800BECF00 /* Auto_Plurk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A77C225E1E4CBE8800BECF00 /* Auto_Plurk.xcdatamodeld */; };
 		A77C22621E4CBE8800BECF00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77C22611E4CBE8800BECF00 /* Assets.xcassets */; };
 		A77C22651E4CBE8800BECF00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77C22631E4CBE8800BECF00 /* LaunchScreen.storyboard */; };
+		A79C5B451E5443A500DA047A /* TabLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5B441E5443A500DA047A /* TabLikeViewController.swift */; };
+		A7A0B53F1E53EA3F00B0ADB8 /* PlurkLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A0B53E1E53EA3F00B0ADB8 /* PlurkLoginViewController.swift */; };
+		A7BAB30B1E53F545007AA24B /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BAB30A1E53F545007AA24B /* NVActivityIndicatorView.framework */; };
+		A7BAB30D1E53F548007AA24B /* TextFieldEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BAB30C1E53F548007AA24B /* TextFieldEffects.framework */; };
+		A7BCED701E5A471300C1177F /* DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BCED6F1E5A471300C1177F /* DownloadImage.swift */; };
+		A7C1FE3C1E4CC117002DEEAF /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C1FE3B1E4CC117002DEEAF /* OAuthSwift.framework */; };
+		A7CF09581E5A994D00281AA4 /* AnimateTableReloadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF09571E5A994D00281AA4 /* AnimateTableReloadData.swift */; };
+		A7CF095A1E5A9C1600281AA4 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF09591E5A9C1600281AA4 /* MessageTableViewCell.swift */; };
+		A7EDCFC31E5A49F300F884C2 /* PlurkOAuthManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDCFC21E5A49F300F884C2 /* PlurkOAuthManagement.swift */; };
+		D09DC0269FD226793929A092 /* Pods_Auto_Plurk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21859515AD94B6AB75FA5654 /* Pods_Auto_Plurk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21859515AD94B6AB75FA5654 /* Pods_Auto_Plurk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auto_Plurk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB09A21E9AF515838503B86 /* Pods-Auto Plurk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Plurk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Auto Plurk/Pods-Auto Plurk.release.xcconfig"; sourceTree = "<group>"; };
+		A70BA3AC1E55A3070029F796 /* LikeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LikeTableViewCell.swift; path = Controllers/CellControllers/LikeTableViewCell.swift; sourceTree = "<group>"; };
+		A726A6731E5AC66900C7ECA8 /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActionSheetPicker_3_0.framework; path = "../../Library/Developer/Xcode/DerivedData/Auto_Plurk-golgsfdubqjqfifeyqhzqfatpjmx/Build/Products/Debug-iphoneos/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework"; sourceTree = "<group>"; };
+		A72865D41E54119400EEA967 /* SCLAlertView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCLAlertView.framework; path = "Pods/../build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework"; sourceTree = "<group>"; };
+		A72865D61E54132700EEA967 /* SCLAlertView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCLAlertView.framework; path = "../../Library/Developer/Xcode/DerivedData/Auto_Plurk-golgsfdubqjqfifeyqhzqfatpjmx/Build/Products/Debug-iphoneos/SCLAlertView/SCLAlertView.framework"; sourceTree = "<group>"; };
+		A75224EF1E5A9602001470CF /* TabMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabMessageViewController.swift; path = Controllers/TabMessageViewController.swift; sourceTree = "<group>"; };
+		A75C2D571E541428002E58E3 /* PopupDialog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PopupDialog.framework; path = "Pods/../build/Debug-iphoneos/PopupDialog/PopupDialog.framework"; sourceTree = "<group>"; };
+		A75C2D591E5431E0002E58E3 /* TabOtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabOtherViewController.swift; path = Controllers/TabOtherViewController.swift; sourceTree = "<group>"; };
+		A75C2D5B1E543C46002E58E3 /* SlipTabBarControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlipTabBarControllerViewController.swift; path = Controllers/SlipTabBarControllerViewController.swift; sourceTree = "<group>"; };
+		A775CD981E54A854003A5193 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		A77C22541E4CBE8700BECF00 /* Auto Plurk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Plurk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77C22571E4CBE8800BECF00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A77C22591E4CBE8800BECF00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A77C225C1E4CBE8800BECF00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A77C225F1E4CBE8800BECF00 /* Auto_Plurk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Auto_Plurk.xcdatamodel; sourceTree = "<group>"; };
 		A77C22611E4CBE8800BECF00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77C22641E4CBE8800BECF00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A77C22661E4CBE8800BECF00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79C5B441E5443A500DA047A /* TabLikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabLikeViewController.swift; path = Controllers/TabLikeViewController.swift; sourceTree = "<group>"; };
+		A7A0B53E1E53EA3F00B0ADB8 /* PlurkLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlurkLoginViewController.swift; path = Controllers/PlurkLoginViewController.swift; sourceTree = "<group>"; };
+		A7BAB30A1E53F545007AA24B /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NVActivityIndicatorView.framework; path = "../../Library/Developer/Xcode/DerivedData/Auto_Plurk-golgsfdubqjqfifeyqhzqfatpjmx/Build/Products/Debug-iphoneos/NVActivityIndicatorView/NVActivityIndicatorView.framework"; sourceTree = "<group>"; };
+		A7BAB30C1E53F548007AA24B /* TextFieldEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextFieldEffects.framework; path = "../../Library/Developer/Xcode/DerivedData/Auto_Plurk-golgsfdubqjqfifeyqhzqfatpjmx/Build/Products/Debug-iphoneos/TextFieldEffects/TextFieldEffects.framework"; sourceTree = "<group>"; };
+		A7BCED6F1E5A471300C1177F /* DownloadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadImage.swift; path = Plugins/DownloadImage.swift; sourceTree = "<group>"; };
+		A7C1FE3B1E4CC117002DEEAF /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/Auto_Plurk-golgsfdubqjqfifeyqhzqfatpjmx/Build/Products/Debug-iphoneos/OAuthSwift/OAuthSwift.framework"; sourceTree = "<group>"; };
+		A7CF09571E5A994D00281AA4 /* AnimateTableReloadData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimateTableReloadData.swift; path = Plugins/AnimateTableReloadData.swift; sourceTree = "<group>"; };
+		A7CF09591E5A9C1600281AA4 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageTableViewCell.swift; path = Controllers/CellControllers/MessageTableViewCell.swift; sourceTree = "<group>"; };
+		A7EDCFC21E5A49F300F884C2 /* PlurkOAuthManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlurkOAuthManagement.swift; path = Plugins/PlurkOAuthManagement.swift; sourceTree = "<group>"; };
+		FD4879AF59E496523D71431E /* Pods-Auto Plurk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Plurk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Auto Plurk/Pods-Auto Plurk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A726A6741E5AC66900C7ECA8 /* ActionSheetPicker_3_0.framework in Frameworks */,
+				A775CD991E54A854003A5193 /* SwiftyJSON.framework in Frameworks */,
+				A75C2D581E541428002E58E3 /* PopupDialog.framework in Frameworks */,
+				A7BAB30D1E53F548007AA24B /* TextFieldEffects.framework in Frameworks */,
+				A7BAB30B1E53F545007AA24B /* NVActivityIndicatorView.framework in Frameworks */,
+				A7C1FE3C1E4CC117002DEEAF /* OAuthSwift.framework in Frameworks */,
+				D09DC0269FD226793929A092 /* Pods_Auto_Plurk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84CC741AFD2BEDC2ED2413F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD4879AF59E496523D71431E /* Pods-Auto Plurk.debug.xcconfig */,
+				7AB09A21E9AF515838503B86 /* Pods-Auto Plurk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A70BA3AE1E55A30A0029F796 /* CellControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A70BA3AC1E55A3070029F796 /* LikeTableViewCell.swift */,
+				A7CF09591E5A9C1600281AA4 /* MessageTableViewCell.swift */,
+			);
+			name = CellControllers;
+			sourceTree = "<group>";
+		};
 		A77C224B1E4CBE8700BECF00 = {
 			isa = PBXGroup;
 			children = (
 				A77C22561E4CBE8700BECF00 /* Auto Plurk */,
 				A77C22551E4CBE8700BECF00 /* Products */,
+				84CC741AFD2BEDC2ED2413F9 /* Pods */,
+				C5F3F3C1B250882897C2DF0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +119,63 @@
 		A77C22561E4CBE8700BECF00 /* Auto Plurk */ = {
 			isa = PBXGroup;
 			children = (
+				A7BCED6E1E5A46E600C1177F /* Plugins */,
+				A7A0B5411E53EA5C00B0ADB8 /* Views */,
+				A7A0B5401E53EA4500B0ADB8 /* Controllers */,
 				A77C22571E4CBE8800BECF00 /* AppDelegate.swift */,
-				A77C22591E4CBE8800BECF00 /* ViewController.swift */,
-				A77C225B1E4CBE8800BECF00 /* Main.storyboard */,
 				A77C22611E4CBE8800BECF00 /* Assets.xcassets */,
-				A77C22631E4CBE8800BECF00 /* LaunchScreen.storyboard */,
 				A77C22661E4CBE8800BECF00 /* Info.plist */,
 				A77C225E1E4CBE8800BECF00 /* Auto_Plurk.xcdatamodeld */,
 			);
 			path = "Auto Plurk";
+			sourceTree = "<group>";
+		};
+		A7A0B5401E53EA4500B0ADB8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7A0B53E1E53EA3F00B0ADB8 /* PlurkLoginViewController.swift */,
+				A75C2D591E5431E0002E58E3 /* TabOtherViewController.swift */,
+				A75C2D5B1E543C46002E58E3 /* SlipTabBarControllerViewController.swift */,
+				A79C5B441E5443A500DA047A /* TabLikeViewController.swift */,
+				A75224EF1E5A9602001470CF /* TabMessageViewController.swift */,
+				A70BA3AE1E55A30A0029F796 /* CellControllers */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A7A0B5411E53EA5C00B0ADB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A77C225B1E4CBE8800BECF00 /* Main.storyboard */,
+				A77C22631E4CBE8800BECF00 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A7BCED6E1E5A46E600C1177F /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				A7BCED6F1E5A471300C1177F /* DownloadImage.swift */,
+				A7EDCFC21E5A49F300F884C2 /* PlurkOAuthManagement.swift */,
+				A7CF09571E5A994D00281AA4 /* AnimateTableReloadData.swift */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		C5F3F3C1B250882897C2DF0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A726A6731E5AC66900C7ECA8 /* ActionSheetPicker_3_0.framework */,
+				A775CD981E54A854003A5193 /* SwiftyJSON.framework */,
+				A75C2D571E541428002E58E3 /* PopupDialog.framework */,
+				A72865D61E54132700EEA967 /* SCLAlertView.framework */,
+				A72865D41E54119400EEA967 /* SCLAlertView.framework */,
+				A7BAB30C1E53F548007AA24B /* TextFieldEffects.framework */,
+				A7BAB30A1E53F545007AA24B /* NVActivityIndicatorView.framework */,
+				A7C1FE3B1E4CC117002DEEAF /* OAuthSwift.framework */,
+				21859515AD94B6AB75FA5654 /* Pods_Auto_Plurk.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A77C22691E4CBE8800BECF00 /* Build configuration list for PBXNativeTarget "Auto Plurk" */;
 			buildPhases = (
+				F32F00DEC6E181A960256E9F /* [CP] Check Pods Manifest.lock */,
 				A77C22501E4CBE8700BECF00 /* Sources */,
 				A77C22511E4CBE8700BECF00 /* Frameworks */,
 				A77C22521E4CBE8700BECF00 /* Resources */,
+				140350A2DE2E3423F1CF1D69 /* [CP] Embed Pods Frameworks */,
+				2F2DACAD505EF72C74E1B6A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,14 +249,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		140350A2DE2E3423F1CF1D69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Auto Plurk/Pods-Auto Plurk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F2DACAD505EF72C74E1B6A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Auto Plurk/Pods-Auto Plurk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F32F00DEC6E181A960256E9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A77C22501E4CBE8700BECF00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A77C22601E4CBE8800BECF00 /* Auto_Plurk.xcdatamodeld in Sources */,
-				A77C225A1E4CBE8800BECF00 /* ViewController.swift in Sources */,
+				A7BCED701E5A471300C1177F /* DownloadImage.swift in Sources */,
+				A7EDCFC31E5A49F300F884C2 /* PlurkOAuthManagement.swift in Sources */,
+				A79C5B451E5443A500DA047A /* TabLikeViewController.swift in Sources */,
 				A77C22581E4CBE8800BECF00 /* AppDelegate.swift in Sources */,
+				A7CF095A1E5A9C1600281AA4 /* MessageTableViewCell.swift in Sources */,
+				A75C2D5C1E543C46002E58E3 /* SlipTabBarControllerViewController.swift in Sources */,
+				A75224F01E5A9602001470CF /* TabMessageViewController.swift in Sources */,
+				A70BA3AD1E55A3070029F796 /* LikeTableViewCell.swift in Sources */,
+				A7CF09581E5A994D00281AA4 /* AnimateTableReloadData.swift in Sources */,
+				A7A0B53F1E53EA3F00B0ADB8 /* PlurkLoginViewController.swift in Sources */,
+				A75C2D5A1E5431E0002E58E3 /* TabOtherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +434,16 @@
 		};
 		A77C226A1E4CBE8800BECF00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD4879AF59E496523D71431E /* Pods-Auto Plurk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CHBKD3LB2S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SCLAlertView",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/PopupDialog",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
+				);
 				INFOPLIST_FILE = "Auto Plurk/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Kantai.Auto-Plurk";
@@ -276,9 +454,16 @@
 		};
 		A77C226B1E4CBE8800BECF00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB09A21E9AF515838503B86 /* Pods-Auto Plurk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CHBKD3LB2S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SCLAlertView",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/PopupDialog",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
+				);
 				INFOPLIST_FILE = "Auto Plurk/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Kantai.Auto-Plurk";
@@ -306,6 +491,7 @@
 				A77C226B1E4CBE8800BECF00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

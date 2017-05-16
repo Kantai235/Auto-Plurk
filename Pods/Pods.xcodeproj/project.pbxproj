@@ -1,0 +1,1816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00BA9A470275E63F08513090FC58BEE6 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9D474724F80B9212772069D3AA224 /* AkiraTextField.swift */; };
+		02B53E8A1D14F1140A1C4C2C495F3030 /* Int+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E1F216F2E5778DE9654D6B18F23CE /* Int+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		05316E7D30AA2C9EFCB992BABF8EDF54 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1415DBEAE2E7A02F2360C0CC23BAB292 /* NVActivityIndicatorAnimationCubeTransition.swift */; };
+		0AEDBAA7547F9D40C010EA3BFFEE78D2 /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490DB3D0FA53B4414EF5792BA950635 /* NVActivityIndicatorAnimationOrbit.swift */; };
+		0E3BFC96C6A7CCADAF3DA6C3C80F35EC /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9412B789822FB83CBAC5AAD2F2DB209F /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F911518B639EDDB31521A96456C50CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		129E7FB052008A4529F167A789B9B09F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		1493C3C80EFDB0A93BEFD656ECB58951 /* NSError+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F89B9D740222FED51F13CEFD0CDD7 /* NSError+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		15F8C0DDB17FFAC09EDA133191B299C9 /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92536334ABFFACAAACACBF52E287B1E9 /* PopupDialogDefaultViewController.swift */; };
+		1648AB9E52071D70CD79280AB21C94D1 /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF9BED92D8426CE92B9335810AFD6B1 /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0130E51AF422F68818416677EE6595 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 580EE6280745649B2B371D8172C66AB5 /* ActionSheetDatePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1C73A7DA2BDD67322DDA54E1F12F982A /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC830DF591141CEDAB646CBF2CD4145C /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD494199615D5ED85E3D06DE5C5982F /* NVActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889C5FC6B54AB8C8D1114185D6314956 /* NVActivityIndicatorPresenter.swift */; };
+		20954D57A9A0A2CCE608530975BD9880 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627ECB82F2F6A4D139B4E6A03BDF8BD /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		20F2F8B31260F2869F2502026771BF8C /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11082D7139B75D8D7368B69DC13B7BCC /* NVActivityIndicatorAnimationBallZigZag.swift */; };
+		246DD685C951FFF04D55232211F076CD /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FF286C7EA8A07D0864AD43E13A3CB6 /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2680FB2A9AAFE79796C23A20390CEF45 /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 233B9FB4F8E35D176F0EDA801F93828C /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29C34B43AFA7A1D88AB188801C76E08C /* ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF73E3108296B971B6362FE2C467D64C /* ActionSheetPicker-3.0-dummy.m */; };
+		2B2323F72B3257C9E64E4C464430805A /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F3785EF1E12C0F724592AB3106392 /* NVActivityIndicatorAnimationBlank.swift */; };
+		2EA20B5C8416D7B2825E0E7ED81B46AC /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6875CFC369EAADFE58ECFEC967BD50C6 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		2F3579E324A42FFC3ED7867BA2E7949A /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA2ABC91B5EAD323D07176BE925D46 /* PopupDialogButton.swift */; };
+		319B3186D57F89D982636875AD792971 /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6B27EF8A552F75EBC5BD6BCFC114E9 /* PopupDialog+Keyboard.swift */; };
+		319FA27229C73E95F315F2CD29627A00 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B93E1804F9C7DA03B9ED8B520AF16B /* HMAC.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		32FFBD5FEC9F20386AD571E67602C985 /* TZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FF8BBA0C881E29FB3A346301CCBA1 /* TZStackView.swift */; };
+		336392A9E1F21CD8DFBB3D87C5548E2A /* OAuthSwiftMultipartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9CB7931B493B2E0CFDB164BAB395FE /* OAuthSwiftMultipartData.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38126B8F80842DFFF9E9A3D946E4DE8E /* OAuthSwiftURLHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F3462687338CBDC12C5D7C75B31B3 /* OAuthSwiftURLHandlerType.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3B04C6DDDD4AE4E61FA378766EAF88F1 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 861781D5FB5C87B08B8E2FD0537E3D5E /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BF00FC98DC28EB65FD64CD61CBE469F /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF8EEB66EFED8DF1C48E7ED29BBBFF /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
+		3C8D2470783809376BA929A9603C21D9 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C73D5DC14F08479CC1589D22AAF75 /* DistancePickerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3D75E049B93D0AD209DB2149768D9421 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C861ABAA04FFFAE613DC4A06AE007BD6 /* UIView+Animations.swift */; };
+		430E0A46B42F47FF79AE16168D1613E9 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD8F275422309179A50E359DE00DBDE /* ActionSheetLocalePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		446ED9BC47CBAC7C0B67589EC5E75489 /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F0A85CD3335F5733195C66F27C7F4 /* PopupDialogDefaultButtons.swift */; };
+		45D1847358C4E097B8E8A1653CF032FD /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7453AA6A57377AF96EC6DD7372988045 /* TransitionAnimations.swift */; };
+		46039CDF37551F5CD083176E59D08805 /* Objc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEAA05A803CC3C6A3B1A08135D720F /* Objc.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C6A3F43F278804D367136819A1488F7 /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2B072F55F76FBECAB838194AA835 /* PopupDialog.swift */; };
+		4D7F64AC19454C57F7C900664F31EC04 /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EB07B162485F79FEB88399780EB23C /* NVActivityIndicatorView-dummy.m */; };
+		4E16182C43803173A14E4FBE9B8DE857 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E901FE767010DF8AF83DE47D6B628CE8 /* MadokaTextField.swift */; };
+		4F1B5D15CA26CCC5417CAB3A8A131B0E /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5DD11C39F802E5B74EEE67CC7EDE83 /* InteractiveTransition.swift */; };
+		504B7932402286477759192E01413768 /* OAuth1Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5423337244C08522EEEF976BA9C8D5E /* OAuth1Swift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5249A1142CC01E6D4979B8AECD980E73 /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D37D392571D93797E8EEB8066CD329 /* PopupDialogContainerView.swift */; };
+		526BE4AFCE367B47D18AFB500C958396 /* OAuthSwiftResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C32EBFBFF1353090A0C84E21C5C386 /* OAuthSwiftResponse.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		557F40B925D4627F510766E01EFCDC2C /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE10E3C14DFAD80F57DBD705ABAA7F /* SHA1.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5730921B8AD1FDA28E48DAA7583D2F90 /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4CD45465D7533F80C6CFFE780B33B4 /* PopupDialog-dummy.m */; };
+		57D46053523694399834EA1172A911CE /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4128C3613C8F8A039A9E0AF731C03909 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
+		5A79F43BF3D900FD1E8186E93841D280 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF675A168132FD52AED630F977FE906 /* UIKit.framework */; };
+		60EDE71B3277592B7F9C7F09572CB1B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		6103E9903EB4E06491FC5DCF246FCAA5 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253C7CB8AAD5E23C5EF8D33FFA50296 /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		6151CAD1CAD7F34BFD688580ABA02686 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA791BA05ED4A5D97ADA582B4F36E72 /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
+		62F63EA9D97F72EB5DA812F14DF0429C /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5431A0D293F283FB26287A0660DBEEDB /* FXBlurView.m */; };
+		66A1D1994E2DA7303C41872B5E0C05A8 /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C77890C2C1E090C0185C5EAB2C82178 /* NVActivityIndicatorAnimationLineScale.swift */; };
+		67E051B40ECBCA87F14329995F570F84 /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F49F18BEE2ADF267BE9D301B4D7259 /* PopupDialogOverlayView.swift */; };
+		6C16BD3BCB1B65194E7CEA5CF15AD446 /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 22EBD00C794114B030C019CB25AD5322 /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D2AA4B79688377C82DAF0D611520551 /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8424344C8CB8A221ECAE29AD3B9A1 /* UIImageView+Calculations.swift */; };
+		72C1D52B4ABE598005B620037E804B9F /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F508020E0D5B7F0D37A8BDC79212C0 /* FXBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734896A911D37758CC661CBAAD673DA1 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFDDB04120BED546B713FCEC882686A /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		7693B72E6F0E317692B5457B14DFD304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		76DBBB98A6C38DCC9255A58F686144F3 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F11DCFF3EBF24B38CD5F5A369C1FAD /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		7DEA2D57F1117FDDC62D71DCA0E87114 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E48939E94AF1ECDDB9B629221586104 /* IsaoTextField.swift */; };
+		7E6EACBBF6E3F0B365C41DF5137F06E5 /* Pods-Auto Plurk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D800367D8830F7019A3C1919C238DDA /* Pods-Auto Plurk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F083AFEC63D51C7609DF35487BECFF0 /* TZStackViewAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800A801CE46B94951D6AD835BD54448 /* TZStackViewAlignment.swift */; };
+		82182CE8F228C83F26CA94BE11C2B17A /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B416769DD4385C9E99308B49222ABD3 /* NVActivityIndicatorShape.swift */; };
+		82DB07E1965CC9FFA0340EDA2C5A05A0 /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B9B16A94BA99869447D3865177138F0 /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83678861FC71A2BE986560E60D265F1C /* ActionSheetPicker-3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BEB63D7914829648AEC9060F660A4A1 /* ActionSheetPicker-3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		846A6B771E5D8D28068BE44F713DE939 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B89C0E9693CA6CD52B4D0687B6E13 /* HoshiTextField.swift */; };
+		8AE014E6246D550FF0290C45D4821F22 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53C029DF21C6945347088F4BA866F0 /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
+		8BE5A4CC9179129819232A9C51E558C0 /* Pods-Auto Plurk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAF052F6E01DF558168665AB58C3C56 /* Pods-Auto Plurk-dummy.m */; };
+		8D18BBDA35D90E432A24E10A238683E1 /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0579E45BB0CD96E63AAD165927236 /* PresentationManager.swift */; };
+		8D659D019E3980DE8F3D0E4BC839DE30 /* URL+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA4231520CAC90318DFC06234266200 /* URL+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8D961959484FC1FF71D46A27E889A75A /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E90AFFFB45F677E9E941B418FD5389 /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EB0AD01FFFBD40A81836BFFC0D94416 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5953A66CBEFD07604E6C53A3833DB3 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		8F3FA75F545634B27A0592E1AA621759 /* TZStackViewDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D72E68EB68D5A6EECA7C772EAEA072 /* TZStackViewDistribution.swift */; };
+		8F79989E412A5B21058E3B6A137B2968 /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517B302CB5CD7A43233BDE0B4A50B611 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		908092E9372E35752C03E7380561BB73 /* UIApplication+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A36D67B878B443B621D968696C819B /* UIApplication+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		90E3389D33DD00DE304548BE9C52C69F /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 624DA6075A578C08F9A064A3E7B93890 /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92A34DDF760EF960F95C39C8618BA1A9 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ADAF71338D517EEF3E54ED7741C6F6 /* NVActivityIndicatorAnimationBallPulse.swift */; };
+		986B0A1A151B66FAA1389F80AE881BE4 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24473E2BC1E4C7FB53BEC3B9AFCAB34 /* JiroTextField.swift */; };
+		98A5E9B0D058C29935580754F62165B9 /* OAuthSwiftHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F44F1EDEE179AB433C8A0AAE87D7C /* OAuthSwiftHTTPRequest.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9907E9EF4FDDA27EAF8B0267299A12E0 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F86420E451D9BC8E00BB96C8E7F9F6 /* NVActivityIndicatorAnimationBallBeat.swift */; };
+		996876C8CB6B09A91413D472C561A332 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2355279B5255229E1AF9A0E4265F43 /* Utils.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9976DCB033041F8981560B850E5EF434 /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084679E35D6B84FF9D359E4445500DBC /* NVActivityIndicatorView.swift */; };
+		99B5C635F458DEC443EE7937E597B345 /* OAuthSwiftCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED8441D4AD1B2AE6639C70578CCF2A /* OAuthSwiftCredential.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9B2B8491E6B1B8EA1C9ACD37341C726B /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 78337A2D47F2DFFC937DEC2859D4F4DD /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B867960879FDDD089A9E41F027E13B9 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C756615874EA7961E2CB4E093E36314E /* AbstractActionSheetPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9BC276383ED044BB0926AFDFD73F928E /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DDA013ABBE6A81388DB9D08C4A2774 /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F36CD15EC1CCC0A3F8A80B3B983D444 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817094FDB4955B76899900790E55A7D4 /* SwiftyJSON.swift */; };
+		A19DE3B4B43768D4C8A109D67837E7C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		A28BC96BFBF5928CFD4C70A1314A5901 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B817538CB8011204693A34D81A459 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		A3E4995BB14153D91486C5DA73DA1EE3 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744A09FD888649CC58E519E0D6A99E7 /* PresentationController.swift */; };
+		A40733D4BB77E3F0309F8A46A034A250 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6458CE1420C824C94AFA50C700B4C6F7 /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
+		A56E0825F9528766A79774F59F65D033 /* Data+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFBBB2EE822B46767A252D35182B25 /* Data+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AA03B45AE77FB5039236B42EBE5F309E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */; };
+		AB7C2D179D130003609035B8F38C3B45 /* NVActivityIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718A0A9FB572C7566C383F9C70E24BB /* NVActivityIndicatorViewable.swift */; };
+		ABD87804ACF4E91AFACA4CFBD60EEF7D /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0A64CC393411D43A4D00631109919F /* UIViewController+Visibility.swift */; };
+		AE2F0E65D56491ECAEE10504688AE919 /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D173FB4F3525419C00FBF959D46A18B1 /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE84E0341C26A9B5C8E1501C8E8AAC8F /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 50509CBC96E4E8868DA70E49A6F645E9 /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D8105FDFFB088D18B64B0D40C32378 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA7907E2ECF8F82A18BAC10BFDD3842 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		B5A3C756F2A1A374CE568556C51E016D /* OAuthSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE59A84F5CAA1233356F5625F918464 /* OAuthSwift-dummy.m */; };
+		B6D293192FF9B12BC7298BA7CA635D0F /* OAuthSwiftError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2D8675861EFF434EBFE6F155CBEB40 /* OAuthSwiftError.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B726B7FDFA5F0EBBA6F2A8D59D559BB0 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DE0DEE3F324252B75A3AA331D48E00 /* TransitionAnimator.swift */; };
+		B820EB8902E948072290C657D8B1C3BE /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D5A63D539FD632F265C65D5E51BC02 /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
+		B9729ABF7B34465ACDF3622F299AF463 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C53E707348564EDD2D270EC07282ED /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
+		BC7BF71E8EE5E00BB15D37A8E20320C0 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C2AAAB0CDDD47B75DCBBA58658806A /* YoshikoTextField.swift */; };
+		BDBFA441010D34FB51DC32F28314AD8D /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A9E232A246A4AB7F2DD07A7D743C2C8 /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3680F12DE1E444D4312F4113E6366EE /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994968FC83A0C1D3B1C91ADFFECAC34 /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
+		C3C5285F6D5E964F88026CA145F77F13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		C6CB72E223B27A0C2B06910EC0FADF67 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B38A98E3A80D5FDC7BBCF7FA2E417 /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C71222091B9B850C8BD775F7E2D70DE8 /* String+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6D852D393174DCEE410071054C0172 /* String+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CA068FC25E80824549668A53EC9379EC /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7392E540768712D7E0D6071240DE5D /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA34502D953403367D86F5B3EC4C5AF7 /* OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055A49811EA4D4A3A7549C3887EB78AE /* OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CD21360061606DF7E88CFBE52894E97E /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2DE1E19CBF32DBC946FA56B139B466 /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
+		CD24C15797F831ACE809757A184A4223 /* OAuth2Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30CF466E5130D045740450C31BF4497 /* OAuth2Swift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CDB2937658ED0A1D4402B5BB2C31AD18 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284B6FF1E34E40043154495FB9DFBCB /* KaedeTextField.swift */; };
+		D043585B57EB4F52A3E8DC796E938B6E /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A679915776B101F1B1E29CE46EC9 /* NVActivityIndicatorAnimationDelegate.swift */; };
+		D19EE707FE40D8B0E4C006D4517C7C17 /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FB89DA2FD18E007633F357BD6C78A /* NVActivityIndicatorAnimationPacman.swift */; };
+		D335B82A0A6F73261354D9CF912D28FA /* OAuthSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88541243E110EEF5CE53EF03920C29BF /* OAuthSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F41963BC9A723B8C66A8FAEF68FFAC /* OAuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B77A017150A8418993DE03870FC113 /* OAuthWebViewController.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7888173C86BDDA663F914AD606AEB84 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66E09D4FEB25FA685CB630AFCE298FA /* YokoTextField.swift */; };
+		D7C7525D0BC01EDCE9F5F1D81145280E /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E80394A7AC6EF6C428053052D8372DB /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		DA732A6C79E7252A25F23A1497ACD0FD /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8DC9DD63F99FF204CDD0CC68CEB713 /* ActionSheetMultipleStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DEEA15418010DE3D4D0DA9788F2FD5A5 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0735684601BDC237E6E2CE261A4BAC9 /* TextFieldEffects-dummy.m */; };
+		E049CE807DA7A012BA222DE64920C3D1 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 312C59003D2F3322321F214090737EED /* SWActionSheet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E4570730B75D40D925009A84520CA874 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5EE62DD5C6C1ABFF2E8E5A7D41ED2A /* MinoruTextField.swift */; };
+		E61ED7FAF083B75902728EB20AC4BD92 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC40390704D1C004E2A92F3B72F0635 /* ActionSheetCustomPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E7B78E29FAA7FEB0C0851472C0BD7F6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		EAF62DF8DB06AFA0D350CB659BF0169B /* TZSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B715336B911BEACF996584006B4705 /* TZSpacerView.swift */; };
+		ED5BE9F3F74614A80C0AF064BB9C1D2A /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA76AB5D29623A11C289F8619E307D /* NVActivityIndicatorAnimationBallScale.swift */; };
+		EEE1478B79092EB209968D14D213C2F9 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF2B814D0F4AAB5153C1AB2F36F027 /* NVActivityIndicatorAnimationSquareSpin.swift */; };
+		F04618031D5C6346A16AC8390FA38ADE /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55161F662655133C38319A6152C1B7EF /* PopupDialogDefaultView.swift */; };
+		F105F75317F63D2ED2A2F40520AD76C9 /* OAuthSwiftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A9084F6424BE6F995EC34070D77B35 /* OAuthSwiftClient.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F65D2A6D1304460EEEAE6CD9C5527432 /* Collection+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F565FC99005A3F2DD2F14423C4650 /* Collection+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F74A71F0DE9D10DC638F244189B10DF0 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D366B58FF5D052B407A353CE3BDE043 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		F7D73313DFD7F85D77D06156C5B80895 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE117336D0DA18358B2907CEEEE141C7 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
+		FA5073E3D9832561F282C8B25A93EFB9 /* Dictionary+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43BA658D132BBC0960C5E01C23F7AF2 /* Dictionary+OAuthSwift.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FB0599825B1BF01C9DFB01081C2708AC /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CAC3EA82D8C173F532A19105FFC20A /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		FC683788CE32114CC9348F08A025F19F /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FC0D4AF981D6056DDD5B8BBB31246 /* TextFieldsEffects.swift */; };
+		FD816CC4636C84850BEBC1C84A160C65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF675A168132FD52AED630F977FE906 /* UIKit.framework */; };
+		FD83AACC81BA0B45C0A83036DF814974 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C9871C2AD8B4689205EC3C1FA0C637 /* SwiftyJSON-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02CBC347B3423C0F76ADA8CF6038DA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B4BD824938843CB23B134A37C0BC898;
+			remoteInfo = SwiftyJSON;
+		};
+		4532ED25FC2C52EE6DE243440387FC31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965699190112DDBD9B7864D091660DBC;
+			remoteInfo = "ActionSheetPicker-3.0";
+		};
+		59087B55956651685B1637696BD94579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E9CB5FA53E7C59108A3E80AA40371DE;
+			remoteInfo = OAuthSwift;
+		};
+		74E24C7138D1CBD82BC2544A280CAABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1A5CCA0EA77A230DBF3139B52FF2996;
+			remoteInfo = PopupDialog;
+		};
+		A195AA2DDFA05DFFDABA750FB683ACD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB348A081324D9F9EC510506F71DCAF0;
+			remoteInfo = TextFieldEffects;
+		};
+		F2F6EB58B36C31C4AD538A0E708189DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EDFE4052B5DE7D509935AC0774CB135;
+			remoteInfo = NVActivityIndicatorView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		055A49811EA4D4A3A7549C3887EB78AE /* OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwift.swift; path = Sources/OAuthSwift.swift; sourceTree = "<group>"; };
+		05C32EBFBFF1353090A0C84E21C5C386 /* OAuthSwiftResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftResponse.swift; path = Sources/OAuthSwiftResponse.swift; sourceTree = "<group>"; };
+		0718A0A9FB572C7566C383F9C70E24BB /* NVActivityIndicatorViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorViewable.swift; path = NVActivityIndicatorView/NVActivityIndicatorViewable.swift; sourceTree = "<group>"; };
+		084679E35D6B84FF9D359E4445500DBC /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = NVActivityIndicatorView/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		09F86420E451D9BC8E00BB96C8E7F9F6 /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		0A2355279B5255229E1AF9A0E4265F43 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
+		0B2D8675861EFF434EBFE6F155CBEB40 /* OAuthSwiftError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftError.swift; path = Sources/OAuthSwiftError.swift; sourceTree = "<group>"; };
+		0E6D852D393174DCEE410071054C0172 /* String+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+OAuthSwift.swift"; path = "Sources/String+OAuthSwift.swift"; sourceTree = "<group>"; };
+		11082D7139B75D8D7368B69DC13B7BCC /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		113EF0799C49B47EA6B6259B325364A2 /* NVActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		1415DBEAE2E7A02F2360C0CC23BAB292 /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		1B5DD11C39F802E5B74EEE67CC7EDE83 /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
+		1F0A64CC393411D43A4D00631109919F /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		1F0E2B072F55F76FBECAB838194AA835 /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
+		21C2AAAB0CDDD47B75DCBBA58658806A /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		22EBD00C794114B030C019CB25AD5322 /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		233B9FB4F8E35D176F0EDA801F93828C /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		2800A801CE46B94951D6AD835BD54448 /* TZStackViewAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZStackViewAlignment.swift; path = PopupDialog/Classes/TZStackView/TZStackViewAlignment.swift; sourceTree = "<group>"; };
+		2C4D8D100141ED990E1D71986BCB075D /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupDialog.framework; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C77890C2C1E090C0185C5EAB2C82178 /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		2D02D8F3DDA667C681BDA35565C17569 /* Pods-Auto Plurk-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Auto Plurk-resources.sh"; sourceTree = "<group>"; };
+		2D1C9250D6C453AFE4527BC61E81E05D /* ActionSheetPicker-3.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.xcconfig"; sourceTree = "<group>"; };
+		2EA7907E2ECF8F82A18BAC10BFDD3842 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		2EC40390704D1C004E2A92F3B72F0635 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		2EE4FF04A67AF1617ACCBEF22F7AA8A7 /* OAuthSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OAuthSwift.modulemap; sourceTree = "<group>"; };
+		312C59003D2F3322321F214090737EED /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		38E01010EE1D56FD0E215FA0D4F4AFF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA3DB921A63A8CF78E25FF723B4D5CA /* Pods_Auto_Plurk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Auto_Plurk.framework; path = "Pods-Auto Plurk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA791BA05ED4A5D97ADA582B4F36E72 /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
+		3D800367D8830F7019A3C1919C238DDA /* Pods-Auto Plurk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Auto Plurk-umbrella.h"; sourceTree = "<group>"; };
+		3FE59A84F5CAA1233356F5625F918464 /* OAuthSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OAuthSwift-dummy.m"; sourceTree = "<group>"; };
+		4128C3613C8F8A039A9E0AF731C03909 /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		4253C7CB8AAD5E23C5EF8D33FFA50296 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		47D6504FDF4F73ED327947685794FEFD /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		4994968FC83A0C1D3B1C91ADFFECAC34 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		49B77A017150A8418993DE03870FC113 /* OAuthWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthWebViewController.swift; path = Sources/OAuthWebViewController.swift; sourceTree = "<group>"; };
+		4D81E0DFF57E5A09ED3328153ADD8E77 /* Pods-Auto Plurk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Auto Plurk-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E48939E94AF1ECDDB9B629221586104 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		50509CBC96E4E8868DA70E49A6F645E9 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		517B302CB5CD7A43233BDE0B4A50B611 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		52F0377299F6D1E4EA53E02973A86559 /* Pods-Auto Plurk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Auto Plurk.modulemap"; sourceTree = "<group>"; };
+		5431A0D293F283FB26287A0660DBEEDB /* FXBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = PopupDialog/Classes/FXBlurView.m; sourceTree = "<group>"; };
+		55161F662655133C38319A6152C1B7EF /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		55B93E1804F9C7DA03B9ED8B520AF16B /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/HMAC.swift; sourceTree = "<group>"; };
+		55CAC3EA82D8C173F532A19105FFC20A /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		57EF2B814D0F4AAB5153C1AB2F36F027 /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
+		580EE6280745649B2B371D8172C66AB5 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		5B416769DD4385C9E99308B49222ABD3 /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = NVActivityIndicatorView/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		5B5953A66CBEFD07604E6C53A3833DB3 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		5BF675A168132FD52AED630F977FE906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5C76D78B689FFA5DA079068F31B2E560 /* ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		5DED8441D4AD1B2AE6639C70578CCF2A /* OAuthSwiftCredential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftCredential.swift; path = Sources/OAuthSwiftCredential.swift; sourceTree = "<group>"; };
+		6100421DBA57BB521220781F94A25464 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F777334170FF1F6AB6B6B88920F30B /* Pods-Auto Plurk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Auto Plurk.release.xcconfig"; sourceTree = "<group>"; };
+		624DA6075A578C08F9A064A3E7B93890 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		633B89C0E9693CA6CD52B4D0687B6E13 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		6458CE1420C824C94AFA50C700B4C6F7 /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		67E90AFFFB45F677E9E941B418FD5389 /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		67F49F18BEE2ADF267BE9D301B4D7259 /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		6875CFC369EAADFE58ECFEC967BD50C6 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		6AD8424344C8CB8A221ECAE29AD3B9A1 /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		6BEB63D7914829648AEC9060F660A4A1 /* ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
+		6C5B817538CB8011204693A34D81A459 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		6E4E69B360B191B13C29ABD5E8E66992 /* OAuthSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OAuthSwift.framework; path = OAuthSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E80394A7AC6EF6C428053052D8372DB /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		6F77652030A558632C76B75E428EF7F6 /* Pods-Auto Plurk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Auto Plurk.debug.xcconfig"; sourceTree = "<group>"; };
+		6F957F47DC00B7F5F5439C034CBB65F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707F89B9D740222FED51F13CEFD0CDD7 /* NSError+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSError+OAuthSwift.swift"; path = "Sources/NSError+OAuthSwift.swift"; sourceTree = "<group>"; };
+		7453AA6A57377AF96EC6DD7372988045 /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
+		75D3A911BCEF2940D5A10AED36ECA798 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		75F508020E0D5B7F0D37A8BDC79212C0 /* FXBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = PopupDialog/Classes/FXBlurView.h; sourceTree = "<group>"; };
+		782FF8BBA0C881E29FB3A346301CCBA1 /* TZStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZStackView.swift; path = PopupDialog/Classes/TZStackView/TZStackView.swift; sourceTree = "<group>"; };
+		78337A2D47F2DFFC937DEC2859D4F4DD /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		78C53E707348564EDD2D270EC07282ED /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		790F3462687338CBDC12C5D7C75B31B3 /* OAuthSwiftURLHandlerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftURLHandlerType.swift; path = Sources/OAuthSwiftURLHandlerType.swift; sourceTree = "<group>"; };
+		796252570B89317FB6129F645D9774A2 /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
+		796A8A309AA5D73A5FC20E98C15C9E50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB9C41D42DAEC935A0BD19100D73D3E /* Pods-Auto Plurk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Auto Plurk-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C7392E540768712D7E0D6071240DE5D /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		7E5CBDD547AA7F37A3D4A113A18BB74A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8DC9DD63F99FF204CDD0CC68CEB713 /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		817094FDB4955B76899900790E55A7D4 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		83BA76AB5D29623A11C289F8619E307D /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		84343EAFBF2F8597E4811729776C3045 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		844F3785EF1E12C0F724592AB3106392 /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		84DF8EEB66EFED8DF1C48E7ED29BBBFF /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		852AF1E493A2BEC97856F853E525D1B4 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		861781D5FB5C87B08B8E2FD0537E3D5E /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		8744A09FD888649CC58E519E0D6A99E7 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
+		87533FA51894E7FECC002ABB8AEBF119 /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PopupDialog.modulemap; sourceTree = "<group>"; };
+		87D37D392571D93797E8EEB8066CD329 /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		88541243E110EEF5CE53EF03920C29BF /* OAuthSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAuthSwift-umbrella.h"; sourceTree = "<group>"; };
+		889C5FC6B54AB8C8D1114185D6314956 /* NVActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorPresenter.swift; path = NVActivityIndicatorView/NVActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
+		88DDA013ABBE6A81388DB9D08C4A2774 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		89ADAF71338D517EEF3E54ED7741C6F6 /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		8B9B16A94BA99869447D3865177138F0 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		8C2D25FD539508DBE89EDC859C7B337A /* OAuthSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OAuthSwift.xcconfig; sourceTree = "<group>"; };
+		8CD39081DC4D04BC33929138D7E761B6 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		8F4CD45465D7533F80C6CFFE780B33B4 /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
+		92536334ABFFACAAACACBF52E287B1E9 /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9412B789822FB83CBAC5AAD2F2DB209F /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		957FC0D4AF981D6056DDD5B8BBB31246 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldsEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldsEffects.swift; sourceTree = "<group>"; };
+		9627ECB82F2F6A4D139B4E6A03BDF8BD /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		96BE10E3C14DFAD80F57DBD705ABAA7F /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/SHA1.swift; sourceTree = "<group>"; };
+		97EFBBB2EE822B46767A252D35182B25 /* Data+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+OAuthSwift.swift"; path = "Sources/Data+OAuthSwift.swift"; sourceTree = "<group>"; };
+		98DE0DEE3F324252B75A3AA331D48E00 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
+		9A9E232A246A4AB7F2DD07A7D743C2C8 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		9AF9BED92D8426CE92B9335810AFD6B1 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		9D366B58FF5D052B407A353CE3BDE043 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
+		9D53C029DF21C6945347088F4BA866F0 /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		A0FF286C7EA8A07D0864AD43E13A3CB6 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		A9D72E68EB68D5A6EECA7C772EAEA072 /* TZStackViewDistribution.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZStackViewDistribution.swift; path = PopupDialog/Classes/TZStackView/TZStackViewDistribution.swift; sourceTree = "<group>"; };
+		AAAF052F6E01DF558168665AB58C3C56 /* Pods-Auto Plurk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Auto Plurk-dummy.m"; sourceTree = "<group>"; };
+		AAD8F275422309179A50E359DE00DBDE /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		AB2F525D01323F08974C1B7101BA498D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC38473D2395CC2ABC867434C02AA7CE /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
+		ADFDDB04120BED546B713FCEC882686A /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		AE117336D0DA18358B2907CEEEE141C7 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		B0735684601BDC237E6E2CE261A4BAC9 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		B0A0579E45BB0CD96E63AAD165927236 /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
+		B3D5A63D539FD632F265C65D5E51BC02 /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		B43BA658D132BBC0960C5E01C23F7AF2 /* Dictionary+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+OAuthSwift.swift"; path = "Sources/Dictionary+OAuthSwift.swift"; sourceTree = "<group>"; };
+		B4564DD052A5721338B4F0AE42AD5C38 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53E1F216F2E5778DE9654D6B18F23CE /* Int+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+OAuthSwift.swift"; path = "Sources/Int+OAuthSwift.swift"; sourceTree = "<group>"; };
+		BA82A679915776B101F1B1E29CE46EC9 /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = NVActivityIndicatorView/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		BE3827EBA42DC2CD290FE225C92870E0 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		BF6B27EF8A552F75EBC5BD6BCFC114E9 /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		BF73E3108296B971B6362FE2C467D64C /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
+		C30CF466E5130D045740450C31BF4497 /* OAuth2Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Swift.swift; path = Sources/OAuth2Swift.swift; sourceTree = "<group>"; };
+		C32F44F1EDEE179AB433C8A0AAE87D7C /* OAuthSwiftHTTPRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftHTTPRequest.swift; path = Sources/OAuthSwiftHTTPRequest.swift; sourceTree = "<group>"; };
+		C5423337244C08522EEEF976BA9C8D5E /* OAuth1Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth1Swift.swift; path = Sources/OAuth1Swift.swift; sourceTree = "<group>"; };
+		C756615874EA7961E2CB4E093E36314E /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		C861ABAA04FFFAE613DC4A06AE007BD6 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
+		C9EEAA05A803CC3C6A3B1A08135D720F /* Objc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Objc.swift; path = Sources/Objc.swift; sourceTree = "<group>"; };
+		CD2DE1E19CBF32DBC946FA56B139B466 /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		CFCA2ABC91B5EAD323D07176BE925D46 /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
+		D00B38A98E3A80D5FDC7BBCF7FA2E417 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		D173FB4F3525419C00FBF959D46A18B1 /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		D54C73D5DC14F08479CC1589D22AAF75 /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
+		D66E09D4FEB25FA685CB630AFCE298FA /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		D70F565FC99005A3F2DD2F14423C4650 /* Collection+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+OAuthSwift.swift"; path = "Sources/Collection+OAuthSwift.swift"; sourceTree = "<group>"; };
+		D9C9871C2AD8B4689205EC3C1FA0C637 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		DED9D474724F80B9212772069D3AA224 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E27FB89DA2FD18E007633F357BD6C78A /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		E3EB07B162485F79FEB88399780EB23C /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		E52F0A85CD3335F5733195C66F27C7F4 /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		E5F11DCFF3EBF24B38CD5F5A369C1FAD /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		E6A9084F6424BE6F995EC34070D77B35 /* OAuthSwiftClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftClient.swift; path = Sources/OAuthSwiftClient.swift; sourceTree = "<group>"; };
+		E86EC04785E3030028AB9CB32EE79660 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		E901FE767010DF8AF83DE47D6B628CE8 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		EC32878090C4B2B93381956161EC0930 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EC5EE62DD5C6C1ABFF2E8E5A7D41ED2A /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		EC830DF591141CEDAB646CBF2CD4145C /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		ECA4231520CAC90318DFC06234266200 /* URL+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+OAuthSwift.swift"; path = "Sources/URL+OAuthSwift.swift"; sourceTree = "<group>"; };
+		EEE15704CADFFFDDDB00DEFDE221458B /* OAuthSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAuthSwift-prefix.pch"; sourceTree = "<group>"; };
+		F0B715336B911BEACF996584006B4705 /* TZSpacerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZSpacerView.swift; path = PopupDialog/Classes/TZStackView/TZSpacerView.swift; sourceTree = "<group>"; };
+		F24473E2BC1E4C7FB53BEC3B9AFCAB34 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		F284B6FF1E34E40043154495FB9DFBCB /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		F333A754A471BC96688AE0D96B848527 /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		F490DB3D0FA53B4414EF5792BA950635 /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
+		F5A36D67B878B443B621D968696C819B /* UIApplication+OAuthSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+OAuthSwift.swift"; path = "Sources/UIApplication+OAuthSwift.swift"; sourceTree = "<group>"; };
+		F678DB052E8EEFF33AA49C2A95C13A43 /* Pods-Auto Plurk-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Auto Plurk-frameworks.sh"; sourceTree = "<group>"; };
+		FA47D1BC51EC1BEB4C5B8A68E5DCE946 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA69797F3732BB934E4775F1E20154E2 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9CB7931B493B2E0CFDB164BAB395FE /* OAuthSwiftMultipartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthSwiftMultipartData.swift; path = Sources/OAuthSwiftMultipartData.swift; sourceTree = "<group>"; };
+		FCAE2E607EE6A86312FA7F3C15C24E7B /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionSheetPicker_3_0.framework; path = "ActionSheetPicker-3.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF265FE7ED298B07A5D456F9E9802BB3 /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
+		FFD35896B6E14ADE9E82E0E2B0E61CF1 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15CD6B69DF4C9506220CDAB090A95B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19DE3B4B43768D4C8A109D67837E7C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2042CC49E84973A022F62909C012B40C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C5285F6D5E964F88026CA145F77F13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F7E70F17AD87320E9B65D31842F60F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129E7FB052008A4529F167A789B9B09F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4407E2293AC423CCE550A2EA85B58DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B78E29FAA7FEB0C0851472C0BD7F6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66076240C2ED6C56B870D99D6432B3F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F911518B639EDDB31521A96456C50CD /* Foundation.framework in Frameworks */,
+				5A79F43BF3D900FD1E8186E93841D280 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D648DD50C82FDFF596B7EB92309B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EDE71B3277592B7F9C7F09572CB1B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4FD8B5704F3E7D5A8921AAF44650CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7693B72E6F0E317692B5457B14DFD304 /* Foundation.framework in Frameworks */,
+				AA03B45AE77FB5039236B42EBE5F309E /* QuartzCore.framework in Frameworks */,
+				FD816CC4636C84850BEBC1C84A160C65 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086FC663ECE62DFCEAE792D53412C1DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				796A8A309AA5D73A5FC20E98C15C9E50 /* Info.plist */,
+				F333A754A471BC96688AE0D96B848527 /* NVActivityIndicatorView.modulemap */,
+				113EF0799C49B47EA6B6259B325364A2 /* NVActivityIndicatorView.xcconfig */,
+				E3EB07B162485F79FEB88399780EB23C /* NVActivityIndicatorView-dummy.m */,
+				E86EC04785E3030028AB9CB32EE79660 /* NVActivityIndicatorView-prefix.pch */,
+				67E90AFFFB45F677E9E941B418FD5389 /* NVActivityIndicatorView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NVActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5E9260013FA223D81B907D9285F6EA1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D9CC9A2C24A328F94015FBB7A06807A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D2BC1423A89D8EEBBAB0B6A41C9EE82 /* ActionSheetPicker-3.0 */,
+				DB31012BF18D71121F8BAF10218CD093 /* NVActivityIndicatorView */,
+				4D725F9A30C76C5EBD09989189CDC79C /* OAuthSwift */,
+				B16FBF0B3723318A1A1B843B58DF3D3F /* PopupDialog */,
+				759B6B8389B38923F65FC63ACC1032B2 /* SwiftyJSON */,
+				5DEE98104811337928D0A83CC38F1900 /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		30AAC2AA2CBE041B50697CFB9D30B52D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E01010EE1D56FD0E215FA0D4F4AFF5 /* Info.plist */,
+				2EE4FF04A67AF1617ACCBEF22F7AA8A7 /* OAuthSwift.modulemap */,
+				8C2D25FD539508DBE89EDC859C7B337A /* OAuthSwift.xcconfig */,
+				3FE59A84F5CAA1233356F5625F918464 /* OAuthSwift-dummy.m */,
+				EEE15704CADFFFDDDB00DEFDE221458B /* OAuthSwift-prefix.pch */,
+				88541243E110EEF5CE53EF03920C29BF /* OAuthSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OAuthSwift";
+			sourceTree = "<group>";
+		};
+		35F1CDF6DA9C0C9E16AA54254C74821C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E328783488C0506F9C20B745C333C03 /* Pods-Auto Plurk */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E328783488C0506F9C20B745C333C03 /* Pods-Auto Plurk */ = {
+			isa = PBXGroup;
+			children = (
+				FA47D1BC51EC1BEB4C5B8A68E5DCE946 /* Info.plist */,
+				52F0377299F6D1E4EA53E02973A86559 /* Pods-Auto Plurk.modulemap */,
+				7BB9C41D42DAEC935A0BD19100D73D3E /* Pods-Auto Plurk-acknowledgements.markdown */,
+				4D81E0DFF57E5A09ED3328153ADD8E77 /* Pods-Auto Plurk-acknowledgements.plist */,
+				AAAF052F6E01DF558168665AB58C3C56 /* Pods-Auto Plurk-dummy.m */,
+				F678DB052E8EEFF33AA49C2A95C13A43 /* Pods-Auto Plurk-frameworks.sh */,
+				2D02D8F3DDA667C681BDA35565C17569 /* Pods-Auto Plurk-resources.sh */,
+				3D800367D8830F7019A3C1919C238DDA /* Pods-Auto Plurk-umbrella.h */,
+				6F77652030A558632C76B75E428EF7F6 /* Pods-Auto Plurk.debug.xcconfig */,
+				61F777334170FF1F6AB6B6B88920F30B /* Pods-Auto Plurk.release.xcconfig */,
+			);
+			name = "Pods-Auto Plurk";
+			path = "Target Support Files/Pods-Auto Plurk";
+			sourceTree = "<group>";
+		};
+		4D725F9A30C76C5EBD09989189CDC79C /* OAuthSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D70F565FC99005A3F2DD2F14423C4650 /* Collection+OAuthSwift.swift */,
+				97EFBBB2EE822B46767A252D35182B25 /* Data+OAuthSwift.swift */,
+				B43BA658D132BBC0960C5E01C23F7AF2 /* Dictionary+OAuthSwift.swift */,
+				55B93E1804F9C7DA03B9ED8B520AF16B /* HMAC.swift */,
+				B53E1F216F2E5778DE9654D6B18F23CE /* Int+OAuthSwift.swift */,
+				707F89B9D740222FED51F13CEFD0CDD7 /* NSError+OAuthSwift.swift */,
+				C5423337244C08522EEEF976BA9C8D5E /* OAuth1Swift.swift */,
+				C30CF466E5130D045740450C31BF4497 /* OAuth2Swift.swift */,
+				055A49811EA4D4A3A7549C3887EB78AE /* OAuthSwift.swift */,
+				E6A9084F6424BE6F995EC34070D77B35 /* OAuthSwiftClient.swift */,
+				5DED8441D4AD1B2AE6639C70578CCF2A /* OAuthSwiftCredential.swift */,
+				0B2D8675861EFF434EBFE6F155CBEB40 /* OAuthSwiftError.swift */,
+				C32F44F1EDEE179AB433C8A0AAE87D7C /* OAuthSwiftHTTPRequest.swift */,
+				FB9CB7931B493B2E0CFDB164BAB395FE /* OAuthSwiftMultipartData.swift */,
+				05C32EBFBFF1353090A0C84E21C5C386 /* OAuthSwiftResponse.swift */,
+				790F3462687338CBDC12C5D7C75B31B3 /* OAuthSwiftURLHandlerType.swift */,
+				49B77A017150A8418993DE03870FC113 /* OAuthWebViewController.swift */,
+				C9EEAA05A803CC3C6A3B1A08135D720F /* Objc.swift */,
+				96BE10E3C14DFAD80F57DBD705ABAA7F /* SHA1.swift */,
+				0E6D852D393174DCEE410071054C0172 /* String+OAuthSwift.swift */,
+				F5A36D67B878B443B621D968696C819B /* UIApplication+OAuthSwift.swift */,
+				ECA4231520CAC90318DFC06234266200 /* URL+OAuthSwift.swift */,
+				0A2355279B5255229E1AF9A0E4265F43 /* Utils.swift */,
+				30AAC2AA2CBE041B50697CFB9D30B52D /* Support Files */,
+			);
+			name = OAuthSwift;
+			path = OAuthSwift;
+			sourceTree = "<group>";
+		};
+		5D2BC1423A89D8EEBBAB0B6A41C9EE82 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				233B9FB4F8E35D176F0EDA801F93828C /* AbstractActionSheetPicker.h */,
+				C756615874EA7961E2CB4E093E36314E /* AbstractActionSheetPicker.m */,
+				624DA6075A578C08F9A064A3E7B93890 /* ActionSheetCustomPicker.h */,
+				2EC40390704D1C004E2A92F3B72F0635 /* ActionSheetCustomPicker.m */,
+				50509CBC96E4E8868DA70E49A6F645E9 /* ActionSheetCustomPickerDelegate.h */,
+				88DDA013ABBE6A81388DB9D08C4A2774 /* ActionSheetDatePicker.h */,
+				580EE6280745649B2B371D8172C66AB5 /* ActionSheetDatePicker.m */,
+				9AF9BED92D8426CE92B9335810AFD6B1 /* ActionSheetDistancePicker.h */,
+				A0FF286C7EA8A07D0864AD43E13A3CB6 /* ActionSheetDistancePicker.m */,
+				8B9B16A94BA99869447D3865177138F0 /* ActionSheetLocalePicker.h */,
+				AAD8F275422309179A50E359DE00DBDE /* ActionSheetLocalePicker.m */,
+				22EBD00C794114B030C019CB25AD5322 /* ActionSheetMultipleStringPicker.h */,
+				7E8DC9DD63F99FF204CDD0CC68CEB713 /* ActionSheetMultipleStringPicker.m */,
+				78337A2D47F2DFFC937DEC2859D4F4DD /* ActionSheetPicker.h */,
+				9A9E232A246A4AB7F2DD07A7D743C2C8 /* ActionSheetStringPicker.h */,
+				D00B38A98E3A80D5FDC7BBCF7FA2E417 /* ActionSheetStringPicker.m */,
+				7C7392E540768712D7E0D6071240DE5D /* DistancePickerView.h */,
+				D54C73D5DC14F08479CC1589D22AAF75 /* DistancePickerView.m */,
+				9412B789822FB83CBAC5AAD2F2DB209F /* SWActionSheet.h */,
+				312C59003D2F3322321F214090737EED /* SWActionSheet.m */,
+				861D4929563A5962904390FF4F9CF928 /* Support Files */,
+			);
+			name = "ActionSheetPicker-3.0";
+			path = "ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		5DEE98104811337928D0A83CC38F1900 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				DED9D474724F80B9212772069D3AA224 /* AkiraTextField.swift */,
+				633B89C0E9693CA6CD52B4D0687B6E13 /* HoshiTextField.swift */,
+				4E48939E94AF1ECDDB9B629221586104 /* IsaoTextField.swift */,
+				F24473E2BC1E4C7FB53BEC3B9AFCAB34 /* JiroTextField.swift */,
+				F284B6FF1E34E40043154495FB9DFBCB /* KaedeTextField.swift */,
+				E901FE767010DF8AF83DE47D6B628CE8 /* MadokaTextField.swift */,
+				EC5EE62DD5C6C1ABFF2E8E5A7D41ED2A /* MinoruTextField.swift */,
+				957FC0D4AF981D6056DDD5B8BBB31246 /* TextFieldsEffects.swift */,
+				D66E09D4FEB25FA685CB630AFCE298FA /* YokoTextField.swift */,
+				21C2AAAB0CDDD47B75DCBBA58658806A /* YoshikoTextField.swift */,
+				F5D1877977C74D349BC5D03CD57BCD1B /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		5E055F99EF04B3B02378E8E1FF483A22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCAE2E607EE6A86312FA7F3C15C24E7B /* ActionSheetPicker_3_0.framework */,
+				B4564DD052A5721338B4F0AE42AD5C38 /* NVActivityIndicatorView.framework */,
+				6E4E69B360B191B13C29ABD5E8E66992 /* OAuthSwift.framework */,
+				3AA3DB921A63A8CF78E25FF723B4D5CA /* Pods_Auto_Plurk.framework */,
+				2C4D8D100141ED990E1D71986BCB075D /* PopupDialog.framework */,
+				FA69797F3732BB934E4775F1E20154E2 /* SwiftyJSON.framework */,
+				FFD35896B6E14ADE9E82E0E2B0E61CF1 /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C464D1F4864D6E850AAEFDF077925B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F957F47DC00B7F5F5439C034CBB65F5 /* Info.plist */,
+				87533FA51894E7FECC002ABB8AEBF119 /* PopupDialog.modulemap */,
+				796252570B89317FB6129F645D9774A2 /* PopupDialog.xcconfig */,
+				8F4CD45465D7533F80C6CFFE780B33B4 /* PopupDialog-dummy.m */,
+				FF265FE7ED298B07A5D456F9E9802BB3 /* PopupDialog-prefix.pch */,
+				D173FB4F3525419C00FBF959D46A18B1 /* PopupDialog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupDialog";
+			sourceTree = "<group>";
+		};
+		759B6B8389B38923F65FC63ACC1032B2 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				817094FDB4955B76899900790E55A7D4 /* SwiftyJSON.swift */,
+				F5A128A6E37B9B53B5220BA5D87F4601 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				2D9CC9A2C24A328F94015FBB7A06807A /* Pods */,
+				5E055F99EF04B3B02378E8E1FF483A22 /* Products */,
+				35F1CDF6DA9C0C9E16AA54254C74821C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		861D4929563A5962904390FF4F9CF928 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC38473D2395CC2ABC867434C02AA7CE /* ActionSheetPicker-3.0.modulemap */,
+				2D1C9250D6C453AFE4527BC61E81E05D /* ActionSheetPicker-3.0.xcconfig */,
+				BF73E3108296B971B6362FE2C467D64C /* ActionSheetPicker-3.0-dummy.m */,
+				5C76D78B689FFA5DA079068F31B2E560 /* ActionSheetPicker-3.0-prefix.pch */,
+				6BEB63D7914829648AEC9060F660A4A1 /* ActionSheetPicker-3.0-umbrella.h */,
+				6100421DBA57BB521220781F94A25464 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		B16FBF0B3723318A1A1B843B58DF3D3F /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				75F508020E0D5B7F0D37A8BDC79212C0 /* FXBlurView.h */,
+				5431A0D293F283FB26287A0660DBEEDB /* FXBlurView.m */,
+				1B5DD11C39F802E5B74EEE67CC7EDE83 /* InteractiveTransition.swift */,
+				1F0E2B072F55F76FBECAB838194AA835 /* PopupDialog.swift */,
+				BF6B27EF8A552F75EBC5BD6BCFC114E9 /* PopupDialog+Keyboard.swift */,
+				CFCA2ABC91B5EAD323D07176BE925D46 /* PopupDialogButton.swift */,
+				87D37D392571D93797E8EEB8066CD329 /* PopupDialogContainerView.swift */,
+				E52F0A85CD3335F5733195C66F27C7F4 /* PopupDialogDefaultButtons.swift */,
+				55161F662655133C38319A6152C1B7EF /* PopupDialogDefaultView.swift */,
+				92536334ABFFACAAACACBF52E287B1E9 /* PopupDialogDefaultViewController.swift */,
+				67F49F18BEE2ADF267BE9D301B4D7259 /* PopupDialogOverlayView.swift */,
+				8744A09FD888649CC58E519E0D6A99E7 /* PresentationController.swift */,
+				B0A0579E45BB0CD96E63AAD165927236 /* PresentationManager.swift */,
+				7453AA6A57377AF96EC6DD7372988045 /* TransitionAnimations.swift */,
+				98DE0DEE3F324252B75A3AA331D48E00 /* TransitionAnimator.swift */,
+				F0B715336B911BEACF996584006B4705 /* TZSpacerView.swift */,
+				782FF8BBA0C881E29FB3A346301CCBA1 /* TZStackView.swift */,
+				2800A801CE46B94951D6AD835BD54448 /* TZStackViewAlignment.swift */,
+				A9D72E68EB68D5A6EECA7C772EAEA072 /* TZStackViewDistribution.swift */,
+				6AD8424344C8CB8A221ECAE29AD3B9A1 /* UIImageView+Calculations.swift */,
+				C861ABAA04FFFAE613DC4A06AE007BD6 /* UIView+Animations.swift */,
+				1F0A64CC393411D43A4D00631109919F /* UIViewController+Visibility.swift */,
+				63C464D1F4864D6E850AAEFDF077925B /* Support Files */,
+			);
+			name = PopupDialog;
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
+		DB31012BF18D71121F8BAF10218CD093 /* NVActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				4994968FC83A0C1D3B1C91ADFFECAC34 /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
+				09F86420E451D9BC8E00BB96C8E7F9F6 /* NVActivityIndicatorAnimationBallBeat.swift */,
+				78C53E707348564EDD2D270EC07282ED /* NVActivityIndicatorAnimationBallClipRotate.swift */,
+				6875CFC369EAADFE58ECFEC967BD50C6 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				9627ECB82F2F6A4D139B4E6A03BDF8BD /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				84DF8EEB66EFED8DF1C48E7ED29BBBFF /* NVActivityIndicatorAnimationBallGridBeat.swift */,
+				3CA791BA05ED4A5D97ADA582B4F36E72 /* NVActivityIndicatorAnimationBallGridPulse.swift */,
+				89ADAF71338D517EEF3E54ED7741C6F6 /* NVActivityIndicatorAnimationBallPulse.swift */,
+				9D53C029DF21C6945347088F4BA866F0 /* NVActivityIndicatorAnimationBallPulseRise.swift */,
+				4128C3613C8F8A039A9E0AF731C03909 /* NVActivityIndicatorAnimationBallPulseSync.swift */,
+				4253C7CB8AAD5E23C5EF8D33FFA50296 /* NVActivityIndicatorAnimationBallRotate.swift */,
+				6458CE1420C824C94AFA50C700B4C6F7 /* NVActivityIndicatorAnimationBallRotateChase.swift */,
+				83BA76AB5D29623A11C289F8619E307D /* NVActivityIndicatorAnimationBallScale.swift */,
+				9D366B58FF5D052B407A353CE3BDE043 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
+				AE117336D0DA18358B2907CEEEE141C7 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
+				55CAC3EA82D8C173F532A19105FFC20A /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				6E80394A7AC6EF6C428053052D8372DB /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				B3D5A63D539FD632F265C65D5E51BC02 /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
+				11082D7139B75D8D7368B69DC13B7BCC /* NVActivityIndicatorAnimationBallZigZag.swift */,
+				E5F11DCFF3EBF24B38CD5F5A369C1FAD /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				844F3785EF1E12C0F724592AB3106392 /* NVActivityIndicatorAnimationBlank.swift */,
+				1415DBEAE2E7A02F2360C0CC23BAB292 /* NVActivityIndicatorAnimationCubeTransition.swift */,
+				BA82A679915776B101F1B1E29CE46EC9 /* NVActivityIndicatorAnimationDelegate.swift */,
+				2C77890C2C1E090C0185C5EAB2C82178 /* NVActivityIndicatorAnimationLineScale.swift */,
+				CD2DE1E19CBF32DBC946FA56B139B466 /* NVActivityIndicatorAnimationLineScaleParty.swift */,
+				517B302CB5CD7A43233BDE0B4A50B611 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
+				5B5953A66CBEFD07604E6C53A3833DB3 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				ADFDDB04120BED546B713FCEC882686A /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				F490DB3D0FA53B4414EF5792BA950635 /* NVActivityIndicatorAnimationOrbit.swift */,
+				E27FB89DA2FD18E007633F357BD6C78A /* NVActivityIndicatorAnimationPacman.swift */,
+				2EA7907E2ECF8F82A18BAC10BFDD3842 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
+				57EF2B814D0F4AAB5153C1AB2F36F027 /* NVActivityIndicatorAnimationSquareSpin.swift */,
+				6C5B817538CB8011204693A34D81A459 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				889C5FC6B54AB8C8D1114185D6314956 /* NVActivityIndicatorPresenter.swift */,
+				5B416769DD4385C9E99308B49222ABD3 /* NVActivityIndicatorShape.swift */,
+				084679E35D6B84FF9D359E4445500DBC /* NVActivityIndicatorView.swift */,
+				0718A0A9FB572C7566C383F9C70E24BB /* NVActivityIndicatorViewable.swift */,
+				086FC663ECE62DFCEAE792D53412C1DE /* Support Files */,
+			);
+			name = NVActivityIndicatorView;
+			path = NVActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		E5E9260013FA223D81B907D9285F6EA1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EC32878090C4B2B93381956161EC0930 /* Foundation.framework */,
+				E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */,
+				5BF675A168132FD52AED630F977FE906 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F5A128A6E37B9B53B5220BA5D87F4601 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB2F525D01323F08974C1B7101BA498D /* Info.plist */,
+				47D6504FDF4F73ED327947685794FEFD /* SwiftyJSON.modulemap */,
+				BE3827EBA42DC2CD290FE225C92870E0 /* SwiftyJSON.xcconfig */,
+				D9C9871C2AD8B4689205EC3C1FA0C637 /* SwiftyJSON-dummy.m */,
+				84343EAFBF2F8597E4811729776C3045 /* SwiftyJSON-prefix.pch */,
+				861781D5FB5C87B08B8E2FD0537E3D5E /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		F5D1877977C74D349BC5D03CD57BCD1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E5CBDD547AA7F37A3D4A113A18BB74A /* Info.plist */,
+				852AF1E493A2BEC97856F853E525D1B4 /* TextFieldEffects.modulemap */,
+				8CD39081DC4D04BC33929138D7E761B6 /* TextFieldEffects.xcconfig */,
+				B0735684601BDC237E6E2CE261A4BAC9 /* TextFieldEffects-dummy.m */,
+				75D3A911BCEF2940D5A10AED36ECA798 /* TextFieldEffects-prefix.pch */,
+				EC830DF591141CEDAB646CBF2CD4145C /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A6717D5F0014B130C9B72AD1CD04512 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C1D52B4ABE598005B620037E804B9F /* FXBlurView.h in Headers */,
+				AE2F0E65D56491ECAEE10504688AE919 /* PopupDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC9D06C137F60B7E84621F980062B80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B04C6DDDD4AE4E61FA378766EAF88F1 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B24E1636C637C9D7A8B5A488054A519 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D335B82A0A6F73261354D9CF912D28FA /* OAuthSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69246AF5FFFD0BFA20D4CC6945BA38AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6EACBBF6E3F0B365C41DF5137F06E5 /* Pods-Auto Plurk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7168AF4B49EE1459BCE8AC958F7EC526 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2680FB2A9AAFE79796C23A20390CEF45 /* AbstractActionSheetPicker.h in Headers */,
+				90E3389D33DD00DE304548BE9C52C69F /* ActionSheetCustomPicker.h in Headers */,
+				AE84E0341C26A9B5C8E1501C8E8AAC8F /* ActionSheetCustomPickerDelegate.h in Headers */,
+				9BC276383ED044BB0926AFDFD73F928E /* ActionSheetDatePicker.h in Headers */,
+				1648AB9E52071D70CD79280AB21C94D1 /* ActionSheetDistancePicker.h in Headers */,
+				82DB07E1965CC9FFA0340EDA2C5A05A0 /* ActionSheetLocalePicker.h in Headers */,
+				6C16BD3BCB1B65194E7CEA5CF15AD446 /* ActionSheetMultipleStringPicker.h in Headers */,
+				83678861FC71A2BE986560E60D265F1C /* ActionSheetPicker-3.0-umbrella.h in Headers */,
+				9B2B8491E6B1B8EA1C9ACD37341C726B /* ActionSheetPicker.h in Headers */,
+				BDBFA441010D34FB51DC32F28314AD8D /* ActionSheetStringPicker.h in Headers */,
+				CA068FC25E80824549668A53EC9379EC /* DistancePickerView.h in Headers */,
+				0E3BFC96C6A7CCADAF3DA6C3C80F35EC /* SWActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB0B363E763F593449F6E1C8E75E58F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C73A7DA2BDD67322DDA54E1F12F982A /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A013C4F3B47D24CD642642008BB80561 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D961959484FC1FF71D46A27E889A75A /* NVActivityIndicatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B4BD824938843CB23B134A37C0BC898 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B2C00F43607BE8E96AC0437F55D0C0 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				907106A9848B7EBC1AD26F95BC881725 /* Sources */,
+				15CD6B69DF4C9506220CDAB090A95B14 /* Frameworks */,
+				3DC9D06C137F60B7E84621F980062B80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = FA69797F3732BB934E4775F1E20154E2 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EDFE4052B5DE7D509935AC0774CB135 /* NVActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DF108162D4FB76F4C98C08DEA245C3 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */;
+			buildPhases = (
+				39CB1D83E4502874B6CA315A7053B40B /* Sources */,
+				AD4FD8B5704F3E7D5A8921AAF44650CB /* Frameworks */,
+				A013C4F3B47D24CD642642008BB80561 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVActivityIndicatorView;
+			productName = NVActivityIndicatorView;
+			productReference = B4564DD052A5721338B4F0AE42AD5C38 /* NVActivityIndicatorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E9CB5FA53E7C59108A3E80AA40371DE /* OAuthSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E65019B9B26228CF0FBBA4A3F74B34D /* Build configuration list for PBXNativeTarget "OAuthSwift" */;
+			buildPhases = (
+				C5C3F17A3DB4BD52E290819A6BB3FDC4 /* Sources */,
+				4407E2293AC423CCE550A2EA85B58DBE /* Frameworks */,
+				5B24E1636C637C9D7A8B5A488054A519 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OAuthSwift;
+			productName = OAuthSwift;
+			productReference = 6E4E69B360B191B13C29ABD5E8E66992 /* OAuthSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E127E32D0465A08437982F8B2A3077E /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */;
+			buildPhases = (
+				93F271AD7E26CF5BCFADCFB7A504897D /* Sources */,
+				66076240C2ED6C56B870D99D6432B3F4 /* Frameworks */,
+				7168AF4B49EE1459BCE8AC958F7EC526 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActionSheetPicker-3.0";
+			productName = "ActionSheetPicker-3.0";
+			productReference = FCAE2E607EE6A86312FA7F3C15C24E7B /* ActionSheetPicker_3_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB348A081324D9F9EC510506F71DCAF0 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1856984E6435928EBAC925D907880A54 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				F19AEF4DEEC1B426EDB73A3BC1065C3C /* Sources */,
+				21F7E70F17AD87320E9B65D31842F60F /* Frameworks */,
+				8BB0B363E763F593449F6E1C8E75E58F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = FFD35896B6E14ADE9E82E0E2B0E61CF1 /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC38A52FF711722EB5E8BF19C76E037A /* Pods-Auto Plurk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB768D1E38EB80038CB59CFC15183A1A /* Build configuration list for PBXNativeTarget "Pods-Auto Plurk" */;
+			buildPhases = (
+				6DCDA77FECE049C49C1743BDD20DB621 /* Sources */,
+				86D648DD50C82FDFF596B7EB92309B4D /* Frameworks */,
+				69246AF5FFFD0BFA20D4CC6945BA38AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94DB5622A21EDCA5D34764D1E84FD581 /* PBXTargetDependency */,
+				7B2AE6897F6A48C49BF1BD9D586F9DD6 /* PBXTargetDependency */,
+				429273D43E461FE03EEF8DBCA9AFEB5B /* PBXTargetDependency */,
+				AACC8325F363566DB3123B71D51D7E06 /* PBXTargetDependency */,
+				1B86A9C8A5368F2522F9B0D273A212C1 /* PBXTargetDependency */,
+				FC36AB2981FCB164D6ED31FD485285CE /* PBXTargetDependency */,
+			);
+			name = "Pods-Auto Plurk";
+			productName = "Pods-Auto Plurk";
+			productReference = 3AA3DB921A63A8CF78E25FF723B4D5CA /* Pods_Auto_Plurk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1A5CCA0EA77A230DBF3139B52FF2996 /* PopupDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCE43A2D13EAF154C1B11037E8B4CCB /* Build configuration list for PBXNativeTarget "PopupDialog" */;
+			buildPhases = (
+				5617D8C7BD3C7CE99104F15634761131 /* Sources */,
+				2042CC49E84973A022F62909C012B40C /* Frameworks */,
+				0A6717D5F0014B130C9B72AD1CD04512 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopupDialog;
+			productName = PopupDialog;
+			productReference = 2C4D8D100141ED990E1D71986BCB075D /* PopupDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5E055F99EF04B3B02378E8E1FF483A22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */,
+				3EDFE4052B5DE7D509935AC0774CB135 /* NVActivityIndicatorView */,
+				4E9CB5FA53E7C59108A3E80AA40371DE /* OAuthSwift */,
+				DC38A52FF711722EB5E8BF19C76E037A /* Pods-Auto Plurk */,
+				F1A5CCA0EA77A230DBF3139B52FF2996 /* PopupDialog */,
+				0B4BD824938843CB23B134A37C0BC898 /* SwiftyJSON */,
+				AB348A081324D9F9EC510506F71DCAF0 /* TextFieldEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39CB1D83E4502874B6CA315A7053B40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3680F12DE1E444D4312F4113E6366EE /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
+				9907E9EF4FDDA27EAF8B0267299A12E0 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */,
+				B9729ABF7B34465ACDF3622F299AF463 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				2EA20B5C8416D7B2825E0E7ED81B46AC /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
+				20954D57A9A0A2CCE608530975BD9880 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
+				3BF00FC98DC28EB65FD64CD61CBE469F /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */,
+				6151CAD1CAD7F34BFD688580ABA02686 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */,
+				92A34DDF760EF960F95C39C8618BA1A9 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */,
+				8AE014E6246D550FF0290C45D4821F22 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */,
+				57D46053523694399834EA1172A911CE /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */,
+				6103E9903EB4E06491FC5DCF246FCAA5 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
+				A40733D4BB77E3F0309F8A46A034A250 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */,
+				ED5BE9F3F74614A80C0AF064BB9C1D2A /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
+				F74A71F0DE9D10DC638F244189B10DF0 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
+				F7D73313DFD7F85D77D06156C5B80895 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
+				FB0599825B1BF01C9DFB01081C2708AC /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
+				D7C7525D0BC01EDCE9F5F1D81145280E /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
+				B820EB8902E948072290C657D8B1C3BE /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
+				20F2F8B31260F2869F2502026771BF8C /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
+				76DBBB98A6C38DCC9255A58F686144F3 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
+				2B2323F72B3257C9E64E4C464430805A /* NVActivityIndicatorAnimationBlank.swift in Sources */,
+				05316E7D30AA2C9EFCB992BABF8EDF54 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				D043585B57EB4F52A3E8DC796E938B6E /* NVActivityIndicatorAnimationDelegate.swift in Sources */,
+				66A1D1994E2DA7303C41872B5E0C05A8 /* NVActivityIndicatorAnimationLineScale.swift in Sources */,
+				CD21360061606DF7E88CFBE52894E97E /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
+				8F79989E412A5B21058E3B6A137B2968 /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
+				8EB0AD01FFFBD40A81836BFFC0D94416 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
+				734896A911D37758CC661CBAAD673DA1 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
+				0AEDBAA7547F9D40C010EA3BFFEE78D2 /* NVActivityIndicatorAnimationOrbit.swift in Sources */,
+				D19EE707FE40D8B0E4C006D4517C7C17 /* NVActivityIndicatorAnimationPacman.swift in Sources */,
+				B1D8105FDFFB088D18B64B0D40C32378 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
+				EEE1478B79092EB209968D14D213C2F9 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				A28BC96BFBF5928CFD4C70A1314A5901 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
+				1FD494199615D5ED85E3D06DE5C5982F /* NVActivityIndicatorPresenter.swift in Sources */,
+				82182CE8F228C83F26CA94BE11C2B17A /* NVActivityIndicatorShape.swift in Sources */,
+				4D7F64AC19454C57F7C900664F31EC04 /* NVActivityIndicatorView-dummy.m in Sources */,
+				9976DCB033041F8981560B850E5EF434 /* NVActivityIndicatorView.swift in Sources */,
+				AB7C2D179D130003609035B8F38C3B45 /* NVActivityIndicatorViewable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5617D8C7BD3C7CE99104F15634761131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F63EA9D97F72EB5DA812F14DF0429C /* FXBlurView.m in Sources */,
+				4F1B5D15CA26CCC5417CAB3A8A131B0E /* InteractiveTransition.swift in Sources */,
+				319B3186D57F89D982636875AD792971 /* PopupDialog+Keyboard.swift in Sources */,
+				5730921B8AD1FDA28E48DAA7583D2F90 /* PopupDialog-dummy.m in Sources */,
+				4C6A3F43F278804D367136819A1488F7 /* PopupDialog.swift in Sources */,
+				2F3579E324A42FFC3ED7867BA2E7949A /* PopupDialogButton.swift in Sources */,
+				5249A1142CC01E6D4979B8AECD980E73 /* PopupDialogContainerView.swift in Sources */,
+				446ED9BC47CBAC7C0B67589EC5E75489 /* PopupDialogDefaultButtons.swift in Sources */,
+				F04618031D5C6346A16AC8390FA38ADE /* PopupDialogDefaultView.swift in Sources */,
+				15F8C0DDB17FFAC09EDA133191B299C9 /* PopupDialogDefaultViewController.swift in Sources */,
+				67E051B40ECBCA87F14329995F570F84 /* PopupDialogOverlayView.swift in Sources */,
+				A3E4995BB14153D91486C5DA73DA1EE3 /* PresentationController.swift in Sources */,
+				8D18BBDA35D90E432A24E10A238683E1 /* PresentationManager.swift in Sources */,
+				45D1847358C4E097B8E8A1653CF032FD /* TransitionAnimations.swift in Sources */,
+				B726B7FDFA5F0EBBA6F2A8D59D559BB0 /* TransitionAnimator.swift in Sources */,
+				EAF62DF8DB06AFA0D350CB659BF0169B /* TZSpacerView.swift in Sources */,
+				32FFBD5FEC9F20386AD571E67602C985 /* TZStackView.swift in Sources */,
+				7F083AFEC63D51C7609DF35487BECFF0 /* TZStackViewAlignment.swift in Sources */,
+				8F3FA75F545634B27A0592E1AA621759 /* TZStackViewDistribution.swift in Sources */,
+				6D2AA4B79688377C82DAF0D611520551 /* UIImageView+Calculations.swift in Sources */,
+				3D75E049B93D0AD209DB2149768D9421 /* UIView+Animations.swift in Sources */,
+				ABD87804ACF4E91AFACA4CFBD60EEF7D /* UIViewController+Visibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCDA77FECE049C49C1743BDD20DB621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE5A4CC9179129819232A9C51E558C0 /* Pods-Auto Plurk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907106A9848B7EBC1AD26F95BC881725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD83AACC81BA0B45C0A83036DF814974 /* SwiftyJSON-dummy.m in Sources */,
+				9F36CD15EC1CCC0A3F8A80B3B983D444 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F271AD7E26CF5BCFADCFB7A504897D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B867960879FDDD089A9E41F027E13B9 /* AbstractActionSheetPicker.m in Sources */,
+				E61ED7FAF083B75902728EB20AC4BD92 /* ActionSheetCustomPicker.m in Sources */,
+				1A0130E51AF422F68818416677EE6595 /* ActionSheetDatePicker.m in Sources */,
+				246DD685C951FFF04D55232211F076CD /* ActionSheetDistancePicker.m in Sources */,
+				430E0A46B42F47FF79AE16168D1613E9 /* ActionSheetLocalePicker.m in Sources */,
+				DA732A6C79E7252A25F23A1497ACD0FD /* ActionSheetMultipleStringPicker.m in Sources */,
+				29C34B43AFA7A1D88AB188801C76E08C /* ActionSheetPicker-3.0-dummy.m in Sources */,
+				C6CB72E223B27A0C2B06910EC0FADF67 /* ActionSheetStringPicker.m in Sources */,
+				3C8D2470783809376BA929A9603C21D9 /* DistancePickerView.m in Sources */,
+				E049CE807DA7A012BA222DE64920C3D1 /* SWActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C3F17A3DB4BD52E290819A6BB3FDC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65D2A6D1304460EEEAE6CD9C5527432 /* Collection+OAuthSwift.swift in Sources */,
+				A56E0825F9528766A79774F59F65D033 /* Data+OAuthSwift.swift in Sources */,
+				FA5073E3D9832561F282C8B25A93EFB9 /* Dictionary+OAuthSwift.swift in Sources */,
+				319FA27229C73E95F315F2CD29627A00 /* HMAC.swift in Sources */,
+				02B53E8A1D14F1140A1C4C2C495F3030 /* Int+OAuthSwift.swift in Sources */,
+				1493C3C80EFDB0A93BEFD656ECB58951 /* NSError+OAuthSwift.swift in Sources */,
+				504B7932402286477759192E01413768 /* OAuth1Swift.swift in Sources */,
+				CD24C15797F831ACE809757A184A4223 /* OAuth2Swift.swift in Sources */,
+				B5A3C756F2A1A374CE568556C51E016D /* OAuthSwift-dummy.m in Sources */,
+				CA34502D953403367D86F5B3EC4C5AF7 /* OAuthSwift.swift in Sources */,
+				F105F75317F63D2ED2A2F40520AD76C9 /* OAuthSwiftClient.swift in Sources */,
+				99B5C635F458DEC443EE7937E597B345 /* OAuthSwiftCredential.swift in Sources */,
+				B6D293192FF9B12BC7298BA7CA635D0F /* OAuthSwiftError.swift in Sources */,
+				98A5E9B0D058C29935580754F62165B9 /* OAuthSwiftHTTPRequest.swift in Sources */,
+				336392A9E1F21CD8DFBB3D87C5548E2A /* OAuthSwiftMultipartData.swift in Sources */,
+				526BE4AFCE367B47D18AFB500C958396 /* OAuthSwiftResponse.swift in Sources */,
+				38126B8F80842DFFF9E9A3D946E4DE8E /* OAuthSwiftURLHandlerType.swift in Sources */,
+				D3F41963BC9A723B8C66A8FAEF68FFAC /* OAuthWebViewController.swift in Sources */,
+				46039CDF37551F5CD083176E59D08805 /* Objc.swift in Sources */,
+				557F40B925D4627F510766E01EFCDC2C /* SHA1.swift in Sources */,
+				C71222091B9B850C8BD775F7E2D70DE8 /* String+OAuthSwift.swift in Sources */,
+				908092E9372E35752C03E7380561BB73 /* UIApplication+OAuthSwift.swift in Sources */,
+				8D659D019E3980DE8F3D0E4BC839DE30 /* URL+OAuthSwift.swift in Sources */,
+				996876C8CB6B09A91413D472C561A332 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19AEF4DEEC1B426EDB73A3BC1065C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BA9A470275E63F08513090FC58BEE6 /* AkiraTextField.swift in Sources */,
+				846A6B771E5D8D28068BE44F713DE939 /* HoshiTextField.swift in Sources */,
+				7DEA2D57F1117FDDC62D71DCA0E87114 /* IsaoTextField.swift in Sources */,
+				986B0A1A151B66FAA1389F80AE881BE4 /* JiroTextField.swift in Sources */,
+				CDB2937658ED0A1D4402B5BB2C31AD18 /* KaedeTextField.swift in Sources */,
+				4E16182C43803173A14E4FBE9B8DE857 /* MadokaTextField.swift in Sources */,
+				E4570730B75D40D925009A84520CA874 /* MinoruTextField.swift in Sources */,
+				DEEA15418010DE3D4D0DA9788F2FD5A5 /* TextFieldEffects-dummy.m in Sources */,
+				FC683788CE32114CC9348F08A025F19F /* TextFieldsEffects.swift in Sources */,
+				D7888173C86BDDA663F914AD606AEB84 /* YokoTextField.swift in Sources */,
+				BC7BF71E8EE5E00BB15D37A8E20320C0 /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B86A9C8A5368F2522F9B0D273A212C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 0B4BD824938843CB23B134A37C0BC898 /* SwiftyJSON */;
+			targetProxy = 02CBC347B3423C0F76ADA8CF6038DA1B /* PBXContainerItemProxy */;
+		};
+		429273D43E461FE03EEF8DBCA9AFEB5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuthSwift;
+			target = 4E9CB5FA53E7C59108A3E80AA40371DE /* OAuthSwift */;
+			targetProxy = 59087B55956651685B1637696BD94579 /* PBXContainerItemProxy */;
+		};
+		7B2AE6897F6A48C49BF1BD9D586F9DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVActivityIndicatorView;
+			target = 3EDFE4052B5DE7D509935AC0774CB135 /* NVActivityIndicatorView */;
+			targetProxy = F2F6EB58B36C31C4AD538A0E708189DC /* PBXContainerItemProxy */;
+		};
+		94DB5622A21EDCA5D34764D1E84FD581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActionSheetPicker-3.0";
+			target = 965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */;
+			targetProxy = 4532ED25FC2C52EE6DE243440387FC31 /* PBXContainerItemProxy */;
+		};
+		AACC8325F363566DB3123B71D51D7E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = F1A5CCA0EA77A230DBF3139B52FF2996 /* PopupDialog */;
+			targetProxy = 74E24C7138D1CBD82BC2544A280CAABC /* PBXContainerItemProxy */;
+		};
+		FC36AB2981FCB164D6ED31FD485285CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = AB348A081324D9F9EC510506F71DCAF0 /* TextFieldEffects */;
+			targetProxy = A195AA2DDFA05DFFDABA750FB683ACD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15017B64452029D6F4B98BAA70DA41AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE3827EBA42DC2CD290FE225C92870E0 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15089E007882A9C6BA032BBA113125B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C2D25FD539508DBE89EDC859C7B337A /* OAuthSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OAuthSwift/OAuthSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OAuthSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OAuthSwift/OAuthSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OAuthSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B0E14309798A1AE641345AD23AD2322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F777334170FF1F6AB6B6B88920F30B /* Pods-Auto Plurk.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Auto Plurk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Auto Plurk/Pods-Auto Plurk.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Auto_Plurk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EE7B26D501ECB623BFA6C041C9B296E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE3827EBA42DC2CD290FE225C92870E0 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		469FCA7154D315F2C27CB69E98DEB1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F77652030A558632C76B75E428EF7F6 /* Pods-Auto Plurk.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Auto Plurk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Auto Plurk/Pods-Auto Plurk.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Auto_Plurk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C4B17312BF61DE03E8C20C55D0E76AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD39081DC4D04BC33929138D7E761B6 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		505FF4EE7DF01F68E27645AA2D22D679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796252570B89317FB6129F645D9774A2 /* PopupDialog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B847F47FB5CEF3BBD9CAD5FA6504FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113EF0799C49B47EA6B6259B325364A2 /* NVActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE01F75585093C9ADB19AD6F25FA349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C2D25FD539508DBE89EDC859C7B337A /* OAuthSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OAuthSwift/OAuthSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OAuthSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OAuthSwift/OAuthSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OAuthSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82C4DCE713E4A5C357954DA6240CBD3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1C9250D6C453AFE4527BC61E81E05D /* ActionSheetPicker-3.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9684482DC751584DA48AD149A4665B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796252570B89317FB6129F645D9774A2 /* PopupDialog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B99ACAF27FC88DB1AD9E22B33681CA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1C9250D6C453AFE4527BC61E81E05D /* ActionSheetPicker-3.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F37C64362172087D131FEEAD10E60CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113EF0799C49B47EA6B6259B325364A2 /* NVActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F83899A5DC42C98BFA0EF70AD4B350B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD39081DC4D04BC33929138D7E761B6 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E65019B9B26228CF0FBBA4A3F74B34D /* Build configuration list for PBXNativeTarget "OAuthSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE01F75585093C9ADB19AD6F25FA349 /* Debug */,
+				15089E007882A9C6BA032BBA113125B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1856984E6435928EBAC925D907880A54 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4B17312BF61DE03E8C20C55D0E76AA /* Debug */,
+				F83899A5DC42C98BFA0EF70AD4B350B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DF108162D4FB76F4C98C08DEA245C3 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37C64362172087D131FEEAD10E60CE4 /* Debug */,
+				6B847F47FB5CEF3BBD9CAD5FA6504FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B2C00F43607BE8E96AC0437F55D0C0 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15017B64452029D6F4B98BAA70DA41AA /* Debug */,
+				3EE7B26D501ECB623BFA6C041C9B296E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E127E32D0465A08437982F8B2A3077E /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C4DCE713E4A5C357954DA6240CBD3A /* Debug */,
+				B99ACAF27FC88DB1AD9E22B33681CA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBCE43A2D13EAF154C1B11037E8B4CCB /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9684482DC751584DA48AD149A4665B9F /* Debug */,
+				505FF4EE7DF01F68E27645AA2D22D679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB768D1E38EB80038CB59CFC15183A1A /* Build configuration list for PBXNativeTarget "Pods-Auto Plurk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469FCA7154D315F2C27CB69E98DEB1C9 /* Debug */,
+				1B0E14309798A1AE641345AD23AD2322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
